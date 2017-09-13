@@ -1,9 +1,9 @@
 # GMT Tutorial for Beginners
 ## Requirements:
-* Pre-installed GMT-5, check by typing `gmt` in terminal
-* Pre-installed netcdf-5, check by typing `ncdump`
-* Pre-installed ghostview package, check by typing `gv`
-* Downloaded ETOPO1_Bed_g_gmt4.grd from the [NOAA website](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/netcdf/)
+* Pre-installed GMT-5, check by typing `gmt` in terminal.
+* Pre-installed netcdf-5, check by typing `ncdump`.
+* Pre-installed ghostview package, check by typing `gv`.
+* Downloaded ETOPO1_Bed_g_gmt4.grd from the [NOAA website](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/netcdf/).
 
 ## Installing GMT
 In Ubuntu: `sudo apt-get install gmt gmt-dcw gmt-gshhg`
@@ -23,3 +23,4 @@ The package consists of three directories: Data, Scripts and Figures.
     - `6Manipulating_Images.sh`: It contains the description of how to make the cpt files, and plot the colorbars using `psscale` command. It also explains plotting the relief data.
     - `7multiD_maps.sh`: This script explains how to plot the multidimensional netcdf data in GMT. 
     - `8three-DPlots.sh`: It includes how to plot the data as 3D plots using two methods: mesh plot, color-coded surface. 
+* The __Figures__ directory consists of all the example plots from 1-24.
