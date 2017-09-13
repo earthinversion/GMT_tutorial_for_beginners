@@ -10,6 +10,8 @@ In Ubuntu: `sudo apt-get install gmt gmt-dcw gmt-gshhg`
 
 In Mac: `brew install gmt`
 
+For other operating systems, check [GMT website](http://gmt.soest.hawaii.edu/projects/gmt/wiki/Installing)
+
 ## Description of the Package:
 The package consists of three directories: Data, Scripts and Figures.
 
