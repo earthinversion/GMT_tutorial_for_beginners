@@ -3,7 +3,7 @@
 * Pre-installed GMT-5, check by typing `gmt` in terminal.
 * Pre-installed netcdf-5, check by typing `ncdump`.
 * Pre-installed ghostview package, check by typing `gv`.
-* Downloaded ETOPO1_Bed_g_gmt4.grd from the [NOAA website](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/netcdf/).
+* Downloaded `ETOPO1_Bed_g_gmt4.grd` in the __Data__ directory from the [NOAA website](https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid_registered/netcdf/).
 
 ## Installing GMT
 In Ubuntu: `sudo apt-get install gmt gmt-dcw gmt-gshhg`
