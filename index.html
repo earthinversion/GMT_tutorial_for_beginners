@@ -1,0 +1,42 @@
+<h1>GMT Tutorial for Beginners</h1>
+
+<h2>Requirements:</h2>
+
+<ul>
+	<li>Pre-installed GMT-5, check by typing <code>gmt</code> in terminal.</li>
+	<li>Pre-installed netcdf-5, check by typing <code>ncdump</code>.</li>
+	<li>Pre-installed ghostview package, check by typing <code>gv</code>.</li>
+	<li>Downloaded <code>ETOPO1_Bed_g_gmt4.grd</code> in the <strong>Data</strong> directory from the <a href="">NOAA website</a>(https://www.ngdc.noaa.gov/mgg/global/relief/ETOPO1/data/bedrock/grid<em>registered/netcdf/).
+		</em></li>
+</ul>
+
+<h2>Installing GMT</h2>
+
+<p>In Ubuntu: <code>sudo apt-get install gmt gmt-dcw gmt-gshhg</code></p>
+
+<p>In Mac: <code>brew install gmt</code></p>
+
+<p>For other operating systems, check <a href="">GMT website</a>(http://gmt.soest.hawaii.edu/projects/gmt/wiki/Installing)</p>
+
+<h2>Description of the Package:</h2>
+
+<p>The package consists of three directories: Data, Scripts and Figures.</p>
+
+<ul>
+	<li>The <strong>Data</strong> directory contains the data files required to run the scripts in the <strong>Scripts</strong> directory.</li>
+	<li>The <strong>Scripts</strong> directory consists of all the bash scripts numbered from 1-8. 
+
+		<ul>
+			<li><code>1linearPlots.sh</code>: Contains commands for making basemap for linear projections including the log-log plot. It also explains how to add title, xlabel, ylabel, tick-marks, background-color to the plot.</li>
+			<li><code>2PlottingMaps.sh</code>: This explains how to plot the Mercator projection, Alber&#39;s projection, Orthographic projection, Eckert projection.</li>
+			<li><code>3PlottingLinesSymbols.sh</code>: This script explains the use of <code>psxy</code> command to plot the lines and symbols. It also contains the commands to plot the earthquake epicenter with colors representing depths and symbol size representing magnitude.</li>
+			<li><code>4PlottingTexts.sh</code>: This script explains how to type texts onto the plots. The user can even type mathematical equations.</li>
+			<li><code>5Plottingcontours.sh</code>: This bash script explains how to plot the contour lines using the command <code>grdcontour</code>. It also explains how to cut the large data set using the <code>grdcut</code> command and obtain the information about it using the <code>grdinfo</code>. It also explains how to do interpolation of data (<strong>nearest neighbour</strong> and <strong>spline</strong>).</li>
+			<li><code>6Manipulating_Images.sh</code>: It contains the description of how to make the cpt files, and plot the colorbars using <code>psscale</code> command. It also explains plotting the relief data.</li>
+			<li><code>7multiD_maps.sh</code>: This script explains how to plot the multidimensional netcdf data in GMT. </li>
+			<li><code>8three-DPlots.sh</code>: It includes how to plot the data as 3D plots using two methods: mesh plot, color-coded surface. </li>
+		</ul></li>
+	<li>The <strong>Figures</strong> directory consists of all the example plots from 1-24.</li>
+</ul>
+
+
